@@ -64,6 +64,27 @@ public class MainActivity4 extends AppCompatActivity {
         alertDialog.show();
     }
     public void Correct(){
-        
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity4.this);
+        builder.setMessage(" You got one point ");
+
+        builder.setTitle("Congrats");
+        builder.setCancelable(false);
+
+        builder.setNegativeButton(
+                "Next",
+                new DialogInterface
+                        .OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog,
+                                        int which)
+                    {
+                        Intent send = new Intent(MainActivity4.this, MainActivity5.class);
+                        startActivity(send);
+                    }
+                });
+
+        AlertDialog alertDialog = builder.create();
+
+        alertDialog.show();
     }
 }
