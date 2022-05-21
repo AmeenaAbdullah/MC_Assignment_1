@@ -24,12 +24,6 @@ public class MainActivity extends AppCompatActivity {
         });
         Button exam=findViewById(R.id.exam);
 
-        exam.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent send = new Intent(MainActivity.this, MainActivity4.class);
-                startActivity(send);
-            }
-        });
+        
     }
 }
