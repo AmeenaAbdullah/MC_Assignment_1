@@ -4,32 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bkimg"
+    android:background="@drawable/sndbk"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/learning"
-        android:layout_width="243dp"
-        android:layout_height="103dp"
-        android:background="@drawable/buttons"
+        android:layout_width="223dp"
+        android:layout_height="83dp"
         android:fontFamily="monospace"
         android:text="Learning"
         android:textColor="#A62F2F"
-        android:textCursorDrawable="@drawable/buttons"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
-
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintVertical_bias="0.467" />
 
     <Button
         android:id="@+id/exam"
-        android:layout_width="169dp"
-        android:layout_height="112dp"
-        android:background="@drawable/buttons"
+        android:layout_width="208dp"
+        android:layout_height="70dp"
 
         android:fontFamily="monospace"
         android:text="Exam"
@@ -37,8 +33,23 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.605" />
+        app:layout_constraintVertical_bias="0.639" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="260dp"
+        android:layout_height="126dp"
+        android:fontFamily="@font/beth_ellen"
+        android:text="Content"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/learning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
