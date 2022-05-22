@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/MM"
+    android:background="@drawable/img"
     tools:context=".MainActivity2">
 
     <Button
         android:id="@+id/z"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="7px"
         android:layout_marginBottom="44dp"
         android:background="@drawable/buttons"
+        android:fontFamily="monospace"
         android:onClick="clicked"
         android:text="@string/Z"
         android:textAlignment="center"
@@ -22,7 +23,7 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintHorizontal_bias="0.671"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout"
         app:layout_constraintVertical_bias="0.0"
@@ -30,31 +31,31 @@
 
     <Button
         android:id="@+id/y"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="7px"
         android:layout_marginTop="3dp"
         android:background="@drawable/buttons"
+        android:fontFamily="monospace"
         android:onClick="clicked"
         android:text="@string/Y"
         android:textColor="#733838"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintHorizontal_bias="0.396"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout"
         app:layout_constraintVertical_bias="0.0" />
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="373dp"
+        android:layout_width="344dp"
 
-        android:layout_height="443dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="342dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:layout_editor_absoluteY="92dp">
 
         <TableRow
             android:layout_width="match_parent"
@@ -63,15 +64,16 @@
             <Button
                 android:id="@+id/a"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
                 android:backgroundTint="#502222"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:scrollbarAlwaysDrawHorizontalTrack="false"
-                android:text="@string/A"
 
+                android:text="@string/A"
                 android:textColor="#733838"
                 android:textSize="34sp"
                 android:visibility="visible"
@@ -80,10 +82,11 @@
 
             <Button
                 android:id="@+id/b"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/B"
                 android:textColor="#733838"
@@ -91,10 +94,11 @@
 
             <Button
                 android:id="@+id/c"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/C"
                 android:textColor="#733838"
@@ -102,10 +106,11 @@
 
             <Button
                 android:id="@+id/d"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/D"
                 android:textColor="#733838"
@@ -119,10 +124,11 @@
 
             <Button
                 android:id="@+id/e"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/E"
                 android:textColor="#733838"
@@ -130,10 +136,11 @@
 
             <Button
                 android:id="@+id/f"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/F"
                 android:textColor="#733838"
@@ -141,10 +148,11 @@
 
             <Button
                 android:id="@+id/g"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/G"
                 android:textColor="#733838"
@@ -152,10 +160,11 @@
 
             <Button
                 android:id="@+id/h"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/H"
                 android:textColor="#733838"
@@ -168,10 +177,11 @@
 
             <Button
                 android:id="@+id/i"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/I"
                 android:textColor="#733838"
@@ -179,10 +189,11 @@
 
             <Button
                 android:id="@+id/j"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/J"
                 android:textColor="#733838"
@@ -190,10 +201,11 @@
 
             <Button
                 android:id="@+id/k"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/K"
                 android:textColor="#733838"
@@ -201,10 +213,11 @@
 
             <Button
                 android:id="@+id/l"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/L"
                 android:textColor="#733838"
@@ -217,10 +230,11 @@
 
             <Button
                 android:id="@+id/m"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/M"
                 android:textColor="#733838"
@@ -228,10 +242,11 @@
 
             <Button
                 android:id="@+id/n"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/N"
                 android:textColor="#733838"
@@ -239,10 +254,11 @@
 
             <Button
                 android:id="@+id/o"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/O"
                 android:textColor="#733838"
@@ -250,10 +266,11 @@
 
             <Button
                 android:id="@+id/p"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/P"
                 android:textColor="#733838"
@@ -266,10 +283,11 @@
 
             <Button
                 android:id="@+id/q"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/Q"
                 android:textColor="#733838"
@@ -277,10 +295,11 @@
 
             <Button
                 android:id="@+id/r"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/R"
                 android:textColor="#733838"
@@ -288,10 +307,11 @@
 
             <Button
                 android:id="@+id/s"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/S"
                 android:textColor="#733838"
@@ -299,10 +319,11 @@
 
             <Button
                 android:id="@+id/t"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/T"
                 android:textColor="#733838"
@@ -316,10 +337,11 @@
 
             <Button
                 android:id="@+id/u"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/U"
                 android:textColor="#733838"
@@ -327,10 +349,11 @@
 
             <Button
                 android:id="@+id/v"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/V"
                 android:textColor="#733838"
@@ -338,10 +361,11 @@
 
             <Button
                 android:id="@+id/w"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/W"
                 android:textColor="#733838"
@@ -349,10 +373,11 @@
 
             <Button
                 android:id="@+id/x"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_margin="7px"
                 android:background="@drawable/buttons"
+                android:fontFamily="monospace"
                 android:onClick="clicked"
                 android:text="@string/X"
                 android:textColor="#733838"
