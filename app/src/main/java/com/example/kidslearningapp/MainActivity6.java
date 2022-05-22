@@ -32,5 +32,14 @@ public class MainActivity6 extends AppCompatActivity {
 
             }
         });
+        Button r_img=findViewById(R.id.repoImge);
+        r_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent send = new Intent(MainActivity6.this,RepoImg.class);
+                startActivity(send);
+
+            }
+        });
     }
 }

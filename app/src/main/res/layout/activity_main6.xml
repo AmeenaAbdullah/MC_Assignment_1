@@ -12,7 +12,7 @@
         android:layout_width="259dp"
         android:layout_height="79dp"
         android:layout_marginTop="68dp"
-        android:text="Go to DashBoard"
+        android:text="Go to Book"
         android:textSize="24sp"
         android:theme="@style/Theme.AppCompat"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,4 +61,15 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/repoImge"
+        android:layout_width="237dp"
+        android:layout_height="58dp"
+        android:background="@color/black"
+        android:text=" Repo_image"
+        android:textSize="24sp"
+        android:theme="@style/Theme.AppCompat"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="570dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
