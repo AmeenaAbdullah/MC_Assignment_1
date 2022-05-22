@@ -27,7 +27,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/b1"
+                android:id="@+id/z1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="60px"
@@ -37,7 +37,7 @@
                 tools:ignore="OnClick" />
 
             <Button
-                android:id="@+id/e1"
+                android:id="@+id/q2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="clickoption"
@@ -51,7 +51,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/a1"
+                android:id="@+id/m2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="60px"
@@ -60,7 +60,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/l1"
+                android:id="@+id/o2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="60px"
