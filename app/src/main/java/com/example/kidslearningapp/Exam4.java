@@ -8,31 +8,30 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity5 extends AppCompatActivity {
+public class Exam4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
-
+        setContentView(R.layout.activity_exam4);
     }
 
-    public void clickopt(View view) {
+    public void clickoptz(View view) {
         switch(view.getId()){
-            case R.id.q1:{
-                Incorrecto();
+            case R.id.o2:{
+                Incorrectz();
                 break;
             }
-            case R.id.p1:{
-                Correcto();
+            case R.id.z1:{
+                Correctz();
                 break;
             }
-            case R.id.r1:{
-                Incorrecto();
+            case R.id.m2:{
+                Incorrectz();
                 break;
             }
-            case R.id.y1:{
-                Incorrecto();
+            case R.id.q2:{
+                Incorrectz();
                 break;
             }
 
@@ -40,8 +39,8 @@ public class MainActivity5 extends AppCompatActivity {
 
         }
     }
-    public void Incorrecto(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity5.this);
+    public void Incorrectz(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(ExamM3.this);
         builder.setMessage("Wrong!!! Answer is P\n Enter Correct one");
 
         builder.setTitle("Incorrect Choice");
@@ -63,8 +62,8 @@ public class MainActivity5 extends AppCompatActivity {
 
         alertDialog.show();
     }
-    public void Correcto(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity5.this);
+    public void Correctz(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(ExamM3.this);
         builder.setMessage(" You got one more point ");
 
         builder.setTitle("Congrats");
@@ -78,7 +77,7 @@ public class MainActivity5 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog,
                                         int which)
                     {
-                        Intent send = new Intent(MainActivity5.this, ExamM3.class);
+                        Intent send = new Intent(ExamM3.this, MainActivity4.class);
                         startActivity(send);
                     }
                 });

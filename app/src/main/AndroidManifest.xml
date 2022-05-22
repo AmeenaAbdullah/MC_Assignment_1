@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KidsLearningApp">
         <activity
+            android:name=".Exam4"
+            android:exported="false" />
+        <activity
             android:name=".RepoImg"
             android:exported="false" />
         <activity
