@@ -4,72 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/MM"
+    android:background="@drawable/fp"
     tools:context=".MainActivity6">
 
     <Button
         android:id="@+id/DashBoard"
-        android:layout_width="259dp"
-        android:layout_height="79dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="210dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="60dp"
         android:text="Go to Book"
         android:textSize="24sp"
         android:theme="@style/Theme.AppCompat"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.865"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/repo"
-        android:layout_width="255dp"
-        android:layout_height="63dp"
+        android:layout_width="219dp"
+        android:layout_height="56dp"
         android:background="@color/black"
         android:text="Go to Repo"
         android:textSize="24sp"
         android:theme="@style/Theme.AppCompat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/DashBoard"
-        app:layout_constraintVertical_bias="0.205" />
+        app:layout_constraintVertical_bias="0.123" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="100dp"
         android:layout_height="59dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginBottom="64dp"
         android:text="For Kids"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/DashBoard"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.832"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="242dp"
         android:layout_height="147dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="96dp"
         android:fontFamily="@font/beth_ellen"
         android:text="English"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.769"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/repoImge"
-        android:layout_width="237dp"
-        android:layout_height="58dp"
+        android:layout_width="215dp"
+        android:layout_height="53dp"
         android:background="@color/black"
         android:text=" Repo_image"
         android:textSize="24sp"
         android:theme="@style/Theme.AppCompat"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="570dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repo"
+        app:layout_constraintVertical_bias="0.189" />
 </androidx.constraintlayout.widget.ConstraintLayout>

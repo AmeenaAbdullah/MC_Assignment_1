@@ -20,7 +20,7 @@ public class MainActivity3 extends AppCompatActivity {
         if(getIntent().getStringExtra("alphabet").equals("a"))
             imageview.setImageResource(R.drawable.a);
         else if(getIntent().getStringExtra("alphabet").equals("b"))
-            imageview.setImageResource(R.drawable.img);
+            imageview.setImageResource(R.drawable.b);
         else if(getIntent().getStringExtra("alphabet").equals("c"))
             imageview.setImageResource(R.drawable.c);
         else if(getIntent().getStringExtra("alphabet").equals("d"))
