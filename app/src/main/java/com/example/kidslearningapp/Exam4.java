@@ -16,22 +16,22 @@ public class Exam4 extends AppCompatActivity {
         setContentView(R.layout.activity_exam4);
     }
 
-    public void clickoptz(View view) {
+    public void clickoptb(View view) {
         switch(view.getId()){
-            case R.id.o2:{
-                Incorrectz();
+            case R.id.c4:{
+                Incorrectb();
                 break;
             }
-            case R.id.z1:{
-                Correctz();
+            case R.id.bb4:{
+                Correctb();
                 break;
             }
-            case R.id.m2:{
-                Incorrectz();
+            case R.id.z4:{
+                Incorrectb();
                 break;
             }
-            case R.id.q2:{
-                Incorrectz();
+            case R.id.k4:{
+                Incorrectb();
                 break;
             }
 
@@ -39,9 +39,9 @@ public class Exam4 extends AppCompatActivity {
 
         }
     }
-    public void Incorrectz(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(ExamM3.this);
-        builder.setMessage("Wrong!!! Answer is P\n Enter Correct one");
+    public void Incorrectb(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(Exam4.this);
+        builder.setMessage("Wrong!!! Answer is B\n Enter Correct one");
 
         builder.setTitle("Incorrect Choice");
         builder.setCancelable(false);
@@ -62,8 +62,8 @@ public class Exam4 extends AppCompatActivity {
 
         alertDialog.show();
     }
-    public void Correctz(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(ExamM3.this);
+    public void Correctb(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(Exam4.this);
         builder.setMessage(" You got one more point ");
 
         builder.setTitle("Congrats");
@@ -77,7 +77,7 @@ public class Exam4 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog,
                                         int which)
                     {
-                        Intent send = new Intent(ExamM3.this, MainActivity4.class);
+                        Intent send = new Intent(Exam4.this, MainActivity4.class);
                         startActivity(send);
                     }
                 });

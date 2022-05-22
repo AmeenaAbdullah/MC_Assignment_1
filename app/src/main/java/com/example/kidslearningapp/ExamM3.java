@@ -18,19 +18,19 @@ public class ExamM3 extends AppCompatActivity {
 
     public void clickoptz(View view) {
         switch(view.getId()){
-            case R.id.o2:{
+            case R.id.bb4:{
                 Incorrectz();
                 break;
             }
-            case R.id.z1:{
+            case R.id.c4:{
                 Correctz();
                 break;
             }
-            case R.id.m2:{
+            case R.id.z4:{
                 Incorrectz();
                 break;
             }
-            case R.id.q2:{
+            case R.id.k4:{
                 Incorrectz();
                 break;
             }
@@ -41,7 +41,7 @@ public class ExamM3 extends AppCompatActivity {
     }
     public void Incorrectz(){
         AlertDialog.Builder builder = new AlertDialog.Builder(ExamM3.this);
-        builder.setMessage("Wrong!!! Answer is P\n Enter Correct one");
+        builder.setMessage("Wrong!!! Answer is Z\n Enter Correct one");
 
         builder.setTitle("Incorrect Choice");
         builder.setCancelable(false);
@@ -77,7 +77,7 @@ public class ExamM3 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog,
                                         int which)
                     {
-                        Intent send = new Intent(ExamM3.this, MainActivity4.class);
+                        Intent send = new Intent(ExamM3.this, Exam4.class);
                         startActivity(send);
                     }
                 });

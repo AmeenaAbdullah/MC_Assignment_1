@@ -19,19 +19,19 @@ public class MainActivity4 extends AppCompatActivity {
 
     public void clickoption(View view) {
         switch(view.getId()){
-            case R.id.m2:{
+            case R.id.z4:{
                 Incorrect();
                 break;
             }
-            case R.id.z1:{
+            case R.id.c4:{
                Correct();
                 break;
             }
-            case R.id.q2:{
+            case R.id.k4:{
                 Incorrect();
                 break;
             }
-            case R.id.o2:{
+            case R.id.bb4:{
                 Incorrect();
                 break;
             }
